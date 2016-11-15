@@ -4,8 +4,9 @@
 # This script fetches a file in parts, and combines them at the end
 ###################################################################
 
-#TODO automatically fetch the session cookie using apple email and password
+#automatically fetch the session cookie using apple email and password
 #Take the file name in on the command line
+#make sure file extension can be sorted, ie out.001 instead of out.1
 #cleanup the part files after a successful signature
 
 
