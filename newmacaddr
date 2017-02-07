@@ -16,6 +16,6 @@ function run() {
 
 MAC=$(openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//')
 
-run "sudo airport -z"
+run "sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -z"
 run "sudo ifconfig en0 ether $MAC"
 run "networksetup -detectnewhardware"
